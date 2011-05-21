@@ -1,0 +1,37 @@
+@import "partials/base"
+@import "partials/header"
+@import "partials/footer"
+@import "partials/navigation"
+@import "partials/index"
+
+//+blueprint-scaffolding("body.bp")
+body.bp
+  +blueprint-typography(true)
+  +blueprint-utilities
+  +blueprint-debug
+  +blueprint-interaction
+
+form.bp
+  +blueprint-form
+
+#container
+  +container
+  +baseline-grid-background(18px, #fff)
+  margin: 0 0 0 30px
+
+header, footer
+  +column($blueprint-grid-columns)
+
+#content
+  +column($content-columns)
+  +append(1)
+  +padding-leader
+  +margin-trailer
+
+#sidebar
+  +padding-leader
+  +margin-trailer
+  +column($sidebar-columns, true)
+  
+
+

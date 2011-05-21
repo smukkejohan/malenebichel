@@ -1,0 +1,48 @@
+=content-section
+  +column($content-columns, true)
+  +margin-trailer
+
+body.index .section-title
+  font-size: 12px
+  line-height: 1.41666667
+  margin: 0
+  text-transform: uppercase
+  font-weight: bold
+  border-bottom: 1px dashed black
+
+section#intro
+  +content-section
+  h1
+    background-color: grey
+    +border-radius(6px)
+    padding: 36px
+    color: white
+    margin-bottom: 0px
+
+section#currently
+  +column(16)
+  +margin-trailer
+  article
+    h1
+      font-size: 2em
+      line-height: 1.5
+      margin-bottom: 0em
+    .meta
+      font-size: 12px
+      line-height: 1.5
+      .quiet
+
+
+section#twitter
+  +column(10)
+  +margin-trailer
+
+section#praise
+  +content-section
+
+section#newsletter
+  +column(6, true)
+  +margin-trailer
+
+
+

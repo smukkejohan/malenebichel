@@ -1,0 +1,14 @@
+{% for page, info in annotated_pages %}
+    {% if info.open %}
+        <ul><li class="{% ifequal current_page page %}active{% endifequal %}{% ifequal parent_page page %}expanded{% endifequal %}">
+    {% else %}
+        </li><li class="{% ifequal current_page page %}active{% endifequal %}{% ifequal parent_page page %}expanded{% endifequal %}">
+    {% endif %}
+
+    <a href="{{ page.get_absolute_url }}" title="{{ page.title }}">{{ page.title }}</a>
+
+    {% for close in info.close %}
+        </li></ul>
+    {% endfor %}
+    
+{% endfor %}

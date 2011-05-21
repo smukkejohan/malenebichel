@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load markup %}
+
+
+{% block title %}Malene Bichel, Sanger og proceskonsulent{% endblock %}
+
+{% block body-class %}index{% endblock %}
+
+{% block content %}
+
+<section id="intro">
+<h1>Mindre omsvøb,<br>mere nærvær og kreativitet,<br>dybere læring.</h1>
+</section>
+
+<section id="currently">
+    <h1 class="section-title">Aktuelle workshops, kurser og events</h1>
+    {% for course in course_list %}
+
+            <article id="{{ course.slug }}" class="{% cycle 'odd' 'even' %}">
+                <div class="inner">
+                    <h1>{{ course.title }}</h1>
+
+                    <p class="meta">
+                        <em>{% if course.custom_time %}
+                            {{ course.custom_time }} |
+                        {% else %}
+                            {{ course.start_date }} -
+                            {% ifequal course.end_date.date course.start_date.date %}
+                                {{ course.end_date.time }}{% else %}{{ course.end_date }}{% endifequal %} |
+                        {% endif %}
+
+                        {% if course.location %}{{ course.location }} | {% endif %}
+                        {% if course.price > 0 %}{{ course.price }},00 DKK{% else %}gratis{% endif %}
+                        </em>
+                    </p>
+
+                    {{ course.description|markdown }}
+
+                    {# if has page read more #}
+                </div>
+            </article>
+
+    {% endfor %}
+
+    <!--<a href="">Se tidligere</a>-->
+</section>
+
+<section id="praise">
+    <h1 class="section-title">Hvad siger folk</h1>
+    {% for praise in praise_list %}
+        {{ praise.content|safe }}
+    {% endfor %}
+</section>   
+
+<section id="twitter">
+    <h1 class="section-title">Twitter opdateringer</h1>
+    {% for tweet in tweets %}
+        <p>{{ tweet.text }} - <span class="time">for {{ tweet.date|timesince }} siden</span><p>
+
+    {% endfor %}
+        <a href="http://twitter.com/malenebichel">Følg @malenebichel på twitter</a>
+</section>
+
+<section id="newsletter">
+    <h1 class="section-title">Nyhedsbrev</h1>
+    Få mit nyhedsbrev
+</section>
+
+
+{% endblock %}
+
+
+{% block sidebar %}
+        <section id="facebook">
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmalenebichel.dk&amp;width=240&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=192" scrolling="no" frameborder="0" style="border:none; overflow:hidden;
+            width:240px; height:192px;" allowTransparency="true">
+        </iframe>{# add up to 198 for baseline grid #}
+    </section>
+{% endblock %}
+
