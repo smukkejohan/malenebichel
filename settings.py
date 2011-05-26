@@ -1,25 +1,40 @@
 # coding=utf-8
-import os.path, sys, re
+import os.path
+import sys
+import platform
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+PRODUCTION_HOSTNAME = "tango"
 
 ADMINS = (
     ('Johan Bichel Lindegaard', 'sysadmin@tango.johan.cc'),
 )
-
 MANAGERS = ADMINS
+
+DEVELOPMENT_MODE = (platform.node() != PRODUCTION_HOSTNAME)
+
+if DEVELOPMENT_MODE:
+    DEBUG = True
+    MEDIA_URL = '/m/'
+    STATIC_URL = '/static/'
+else:
+    DEBUG = False
+    MEDIA_URL = 'http://static.wetart.dk/m/'
+    STATIC_URL = 'http://static.wetart.dk/'
+    ADMIN_MEDIA_PREFIX = MEDIA_URL + '/admin/'
+
+TEMPLATE_DEBUG = DEBUG
+
+# Static files
+MEDIA_ROOT = BASE_PATH + '/media'
+STATICFILES_DIRS = (
+    BASE_PATH + '/static',
+)
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'test.db',                      # Or path to database file if using sqlite3.
-        'USER': '',                      # Not used with sqlite3.
-        'PASSWORD': '',                  # Not used with sqlite3.
-        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
 
@@ -50,9 +65,6 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
-
-# Make this unique, and don't share it with anybody.
-SECRET_KEY = 'rg4e5_cx)%641akghccucc4w754q4u(y9m_7o$h8=r_q!o5+@rg'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -123,5 +135,13 @@ LOGGING = {
     }
 }
 
+
 TWITTER_USER = "malenebichel"
 TWITTER_TIMEOUT = 3600
+
+
+try:
+    execfile(BASE_PATH + '/settings_local.py')
+except IOError:
+    sys.stderr.write("\nYou need to copy settings_local.example to settings_local.py and customize it.\n")
+    sys.exit(1)
