@@ -44,16 +44,6 @@ LOCALE_PATHS = (
     BASE_PATH + '/locale',
 )
 
-# Static files
-MEDIA_ROOT = BASE_PATH + '/media'
-MEDIA_URL = '/media/'
-ADMIN_MEDIA_PREFIX = '/static/admin/'
-STATIC_ROOT = '/static/admin/'
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    BASE_PATH + '/static',
-)
-
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
