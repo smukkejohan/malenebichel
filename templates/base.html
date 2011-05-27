@@ -1,5 +1,6 @@
 {% load i18n %}
 {% load pages_tags %}
+{% load assets %}
 
 {% get_current_language as LANG %}
 <!DOCTYPE html>
@@ -13,6 +14,11 @@
     <!--[if IE]>
       <link href="{{ STATIC_URL }}css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
+
+    <script src="{{ STATIC_URL }}js/lib/jquery-1.6.1.min.js"></script>
+    <script src="{{ STATIC_URL }}js/lib/jquery.cycle.min.js"></script>
+    <script src="{{ STATIC_URL }}js/base.js"></script>
+
     <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>

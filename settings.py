@@ -22,9 +22,9 @@ if DEVELOPMENT_MODE:
     STATIC_URL = '/static/'
 else:
     DEBUG = False
-    MEDIA_URL = 'http://static.malenebichel.dk/m/'
+    MEDIA_URL = 'http://static.malenebichel.dk/'
     STATIC_URL = 'http://static.malenebichel.dk/'
-    ADMIN_MEDIA_PREFIX = MEDIA_URL + '/admin/'
+    ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 TEMPLATE_DEBUG = DEBUG
 
@@ -89,6 +89,7 @@ INSTALLED_APPS = (
 
     'south',
     'treebeard',
+    'django_assets',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',
