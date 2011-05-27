@@ -4,6 +4,10 @@ import sys
 import platform
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+ROOT_URLCONF = 'urls'
+
+sys.path.append(BASE_PATH + '/apps')
+
 PRODUCTION_HOSTNAME = "tango"
 
 ADMINS = (
@@ -12,15 +16,14 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DEVELOPMENT_MODE = (platform.node() != PRODUCTION_HOSTNAME)
-
 if DEVELOPMENT_MODE:
     DEBUG = True
     MEDIA_URL = '/m/'
     STATIC_URL = '/static/'
 else:
     DEBUG = False
-    MEDIA_URL = 'http://static.wetart.dk/m/'
-    STATIC_URL = 'http://static.wetart.dk/'
+    MEDIA_URL = 'http://static.malenebichel.dk/m/'
+    STATIC_URL = 'http://static.malenebichel.dk/'
     ADMIN_MEDIA_PREFIX = MEDIA_URL + '/admin/'
 
 TEMPLATE_DEBUG = DEBUG
@@ -30,13 +33,6 @@ MEDIA_ROOT = BASE_PATH + '/media'
 STATICFILES_DIRS = (
     BASE_PATH + '/static',
 )
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'test.db',                      # Or path to database file if using sqlite3.
-    }
-}
 
 TIME_ZONE = 'Europe/Copenhagen'
 LANGUAGE_CODE = 'da_DK'
@@ -90,8 +86,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
 )
-
-ROOT_URLCONF = 'malenebichel.urls'
 
 TEMPLATE_DIRS = (
     BASE_PATH + '/templates/'
