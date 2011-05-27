@@ -91,7 +91,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'malene.urls'
+ROOT_URLCONF = 'malenebichel.urls'
 
 TEMPLATE_DIRS = (
     BASE_PATH + '/templates/'
