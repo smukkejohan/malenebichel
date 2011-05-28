@@ -7,7 +7,7 @@ urlpatterns = patterns('',
     url(r'^a/doc/', include('django.contrib.admindocs.urls')),
     url(r'^a/', include(admin.site.urls)),
 
-    url(r'^recommendations$', 'praise.views.index', name='praises'),
+    url(r'^recommendations/$', 'praise.views.index', name='praises'),
 
     url(r'^$', 'views.index', name='index'),
 

@@ -96,29 +96,35 @@ footer {
     list-style: none; }
     /* line 7, ../src/partials/_navigation.sass */
     #main-navigation ul li {
+      margin-bottom: 18px;
       font-weight: bold; }
-      /* line 10, ../src/partials/_navigation.sass */
+      /* line 11, ../src/partials/_navigation.sass */
       #main-navigation ul li a {
-        color: black;
+        color: #aaaaaa;
         text-decoration: none; }
-        /* line 13, ../src/partials/_navigation.sass */
+        /* line 14, ../src/partials/_navigation.sass */
         #main-navigation ul li a:hover {
-          text-decoration: underline; }
+          text-decoration: underline;
+          color: black; }
       /* line 18, ../src/partials/_navigation.sass */
+      #main-navigation ul li.expanded ul, #main-navigation ul li.active ul {
+        display: block; }
+      /* line 21, ../src/partials/_navigation.sass */
+      #main-navigation ul li.active a {
+        color: black; }
+      /* line 24, ../src/partials/_navigation.sass */
       #main-navigation ul li ul {
-        margin-left: 0;
+        display: none;
+        margin-left: 10px;
         margin-bottom: 1.5em; }
-        /* line 21, ../src/partials/_navigation.sass */
+        /* line 28, ../src/partials/_navigation.sass */
         #main-navigation ul li ul li {
+          margin: 0;
           font-size: 1em;
           font-weight: normal; }
-          /* line 25, ../src/partials/_navigation.sass */
-          #main-navigation ul li ul li.active {
-            background-color: black; }
-            /* line 27, ../src/partials/_navigation.sass */
-            #main-navigation ul li ul li.active a {
-              color: white;
-              font-weight: bold; }
+          /* line 34, ../src/partials/_navigation.sass */
+          #main-navigation ul li ul li.active a {
+            font-weight: bold; }
 
 /* line 5, ../src/partials/_index.sass */
 body.index .section-title {
