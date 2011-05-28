@@ -9,6 +9,7 @@ body.index .section-title
   text-transform: uppercase
   font-weight: bold
   border-bottom: 1px dashed black
+  margin-bottom: 18px
 
 section#intro
   +content-section
@@ -40,15 +41,29 @@ section#twitter
 section#praise
   +content-section
   #praises
+    background-color: grey
+    +border-radius(6px)
     height: 15em
-    blockquote
-      margin: 0.75em
-      font-size: 2em
-      p
-        margin-bottom: 0
-    .person
-      text-align: right
-      font-weight: bold
+    a
+      height: 15em
+      position: relative
+      display: block
+      text-decoration: none
+      color: white
+      &:hover
+        p
+          color: black
+      blockquote
+        margin: 0.75em
+        font-size: 2em
+        color: white
+        p
+          margin-bottom: 0
+      .person
+        text-align: right
+        position: absolute
+        bottom: 0
+        right: 1.5em
       
 
 section#newsletter
