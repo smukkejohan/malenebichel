@@ -1,3 +1,4 @@
+from django.core.urlresolvers import reverse
 from django.db import models
 
 class Praise(models.Model):
@@ -6,4 +7,7 @@ class Praise(models.Model):
     person = models.CharField('Henvisning', max_length=255)
 
     def __unicode__(self):
-        return u'" ... %s ... " - %s' % (self.excerpt, self.person)
+        return u'"%s" - %s' % (self.excerpt, self.person)
+
+    def get_absolute_url(self):
+        return '{}#p{}'.format(reverse('praises'), str(self.pk))

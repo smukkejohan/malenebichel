@@ -7,3 +7,6 @@ oauth2==1.5.170
 python-twitter==0.8.2
 simplejson==2.1.6
 wsgiref==0.1.2
+psycopg2==2.4.1
+
+ipython

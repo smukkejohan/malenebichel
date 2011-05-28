@@ -14,8 +14,8 @@
       <link href="{{ STATIC_URL }}css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
 
-    <script src="{{ STATIC_URL }}js/lib/jquery-1.6.1.min.js"></script>
-    <script src="{{ STATIC_URL }}js/lib/jquery.cycle.min.js"></script>
+    <script src="{{ STATIC_URL }}js/lib/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/lib/jquery.cycle.js"></script>
     <script src="{{ STATIC_URL }}js/base.js"></script>
 
     <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -44,6 +44,7 @@
             <ul>
                 <li><a href="{% url index %}">Forside</a></li>
                 <li><a href="{% url course_signup %}">Tilmelding</a></li>
+                <li><a href="{% url praises %}">Anbefalinger</a></li>
             </ul>
             {% render_page_navigation %}
         </nav>
@@ -59,6 +60,21 @@
     malenebi@gmail.com | 6114 4795
 
     </footer>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1946017-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 
 </div>
 

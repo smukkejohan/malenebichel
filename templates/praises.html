@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load markup %}
+
+{% block content %}
+    <h1>Anbefalinger</h1>
+    {% for praise in praise_list %}
+        <div class="praise" id="p{{ praise.pk }}">
+            <blockquote>{{ praise.content|markdown }}</blockquote>
+            <p class="person">- {{ praise.person }}</p>
+        </div>
+    {% endfor %}
+
+{% endblock %}

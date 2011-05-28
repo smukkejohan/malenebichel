@@ -47,10 +47,14 @@
 
 <section id="praise">
     <h1 class="section-title">Hvad siger folk</h1>
+    <div id="praises">
     {% for praise in praise_list %}
-        <blockquote>{{ praise.excerpt|markdown }}</blockquote>
-        <p>{{ praise.person }}</p>
+        <a href="{{ praise.get_absolute_url }}" class="praise">
+            <blockquote>{{ praise.excerpt|markdown }}</blockquote>
+            <p class="person">- {{ praise.person }}</p>
+        </a>
     {% endfor %}
+    </div>
 </section>   
 
 <section id="twitter">
