@@ -10,4 +10,4 @@ class Praise(models.Model):
         return u'"%s" - %s' % (self.excerpt, self.person)
 
     def get_absolute_url(self):
-        return '{}#p{}'.format(reverse('praises'), str(self.pk))
+        return '%s#p%s' % (reverse('praises'), str(self.pk))
