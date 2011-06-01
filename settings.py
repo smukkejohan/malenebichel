@@ -89,6 +89,7 @@ INSTALLED_APPS = (
 
     'south',
     'treebeard',
+    'sorl.thumbnail',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',

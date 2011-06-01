@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load markup %}
+{% load thumbnail %}
 
 
 {% block title %}Malene Bichel, Sanger og proceskonsulent{% endblock %}
@@ -51,9 +52,10 @@
     {% for praise in praise_list %}
         <a href="{{ praise.get_absolute_url }}" title="Læs mere" class="praise">
 
-            {% if praise.image %}
-                <figure><img src="{{ praise.image.url }}"/></figure>
-            {% endif %}
+                {% thumbnail praise.image "108x126" crop="center" as img %}
+                    <figure><img src="{{ img.url }}" width="{{ img.width }}" width="{{ img.height }}"/></figure>
+                {% empty %}
+                {% endthumbnail %}
 
             <blockquote><p>{{ praise.excerpt }} ... </p></blockquote>
             <p class="person">- {{ praise.person }}</p>
