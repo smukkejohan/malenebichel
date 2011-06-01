@@ -18,18 +18,18 @@ MANAGERS = ADMINS
 DEVELOPMENT_MODE = (platform.node() != PRODUCTION_HOSTNAME)
 if DEVELOPMENT_MODE:
     DEBUG = True
-    MEDIA_URL = '/m/'
+    MEDIA_URL = '/media/'
     STATIC_URL = '/static/'
 else:
     DEBUG = False
-    MEDIA_URL = 'http://static.malenebichel.dk/'
+    MEDIA_URL = 'http://static.malenebichel.dk/uploads/'
     STATIC_URL = 'http://static.malenebichel.dk/'
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 TEMPLATE_DEBUG = DEBUG
 
 # Static files
-MEDIA_ROOT = BASE_PATH + '/media'
+MEDIA_ROOT = BASE_PATH + '/static/uploads'
 STATICFILES_DIRS = (
     BASE_PATH + '/static',
 )

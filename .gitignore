@@ -4,3 +4,4 @@ test.db
 *.pyc
 .sass-cache/
 settings_local.py
+/static/uploads/

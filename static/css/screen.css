@@ -179,7 +179,7 @@ section#currently {
     font-size: 12px;
     line-height: 1.5; }
 
-/* line 37, ../src/partials/_index.sass */
+/* line 36, ../src/partials/_index.sass */
 section#twitter {
   display: inline;
   float: left;
@@ -190,7 +190,7 @@ section#twitter {
   * html section#twitter {
     overflow-x: hidden; }
 
-/* line 41, ../src/partials/_index.sass */
+/* line 40, ../src/partials/_index.sass */
 section#praise {
   display: inline;
   float: left;
@@ -200,7 +200,7 @@ section#praise {
   /* line 147, ../../../../.gem/ruby/1.8/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
   * html section#praise {
     overflow-x: hidden; }
-  /* line 43, ../src/partials/_index.sass */
+  /* line 42, ../src/partials/_index.sass */
   section#praise #praises {
     background-color: grey;
     -moz-border-radius: 6px;
@@ -209,21 +209,22 @@ section#praise {
     -ms-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
-    height: 15em; }
-    /* line 47, ../src/partials/_index.sass */
+    height: 162px; }
+    /* line 46, ../src/partials/_index.sass */
     section#praise #praises a {
-      height: 15em;
+      height: 162px;
       position: relative;
       display: block;
       text-decoration: none;
       color: white; }
-      /* line 54, ../src/partials/_index.sass */
+      /* line 53, ../src/partials/_index.sass */
       section#praise #praises a:hover p {
         color: black; }
-      /* line 56, ../src/partials/_index.sass */
+      /* line 55, ../src/partials/_index.sass */
       section#praise #praises a blockquote {
-        margin: 0.75em;
-        font-size: 2em;
+        margin: 1em;
+        font-size: 1.6em;
+        line-height: 1.2;
         color: white; }
         /* line 60, ../src/partials/_index.sass */
         section#praise #praises a blockquote p {
@@ -234,8 +235,15 @@ section#praise {
         position: absolute;
         bottom: 0;
         right: 1.5em; }
+      /* line 68, ../src/partials/_index.sass */
+      section#praise #praises a figure {
+        height: 126px;
+        width: 108px;
+        float: left;
+        margin: 18px 18px 60px 18px;
+        overflow: hidden; }
 
-/* line 69, ../src/partials/_index.sass */
+/* line 80, ../src/partials/_index.sass */
 section#newsletter {
   display: inline;
   float: left;

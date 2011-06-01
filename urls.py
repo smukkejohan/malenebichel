@@ -1,6 +1,8 @@
 from django.conf.urls.defaults import patterns, include, url
 
 from django.contrib import admin
+import settings
+
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -14,3 +16,10 @@ urlpatterns = patterns('',
     url(r'^', include('courses.urls')),
     url(r'^', include('pages.urls')),
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('django.views.static',
+    (r'^media/(?P<path>.*)$',
+        'serve', {
+        'document_root': settings.MEDIA_ROOT,
+        'show_indexes': True }),)

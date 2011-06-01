@@ -50,7 +50,12 @@
     <div id="praises">
     {% for praise in praise_list %}
         <a href="{{ praise.get_absolute_url }}" title="Læs mere" class="praise">
-            <blockquote>{{ praise.excerpt|markdown }}</blockquote>
+
+            {% if praise.image %}
+                <figure><img src="{{ praise.image.url }}"/></figure>
+            {% endif %}
+
+            <blockquote><p>{{ praise.excerpt }} ... </p></blockquote>
             <p class="person">- {{ praise.person }}</p>
         </a>
     {% endfor %}
