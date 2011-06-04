@@ -59,24 +59,25 @@ header {
   padding-top: 3em;
   border-bottom-style: solid;
   border-bottom-width: 0.143em;
-  padding-bottom: 1.357em; }
-  /* line 5, ../src/partials/_header.sass */
+  padding-bottom: 1.357em;
+  background: transparent url("../images/malene-banner.jpg") right no-repeat; }
+  /* line 6, ../src/partials/_header.sass */
   header hgroup#site-title {
     font-family: cantarell; }
-    /* line 7, ../src/partials/_header.sass */
+    /* line 8, ../src/partials/_header.sass */
     header hgroup#site-title h1 {
       margin: 0; }
-      /* line 9, ../src/partials/_header.sass */
+      /* line 10, ../src/partials/_header.sass */
       header hgroup#site-title h1 a {
         color: black; }
-        /* line 11, ../src/partials/_header.sass */
+        /* line 12, ../src/partials/_header.sass */
         header hgroup#site-title h1 a:hover {
           color: #666666; }
-    /* line 13, ../src/partials/_header.sass */
+    /* line 14, ../src/partials/_header.sass */
     header hgroup#site-title h2 {
       margin: 0;
       color: #666666; }
-    /* line 16, ../src/partials/_header.sass */
+    /* line 17, ../src/partials/_header.sass */
     header hgroup#site-title a {
       text-decoration: none; }
 
