@@ -30,7 +30,7 @@ def signup(request):
             sup.course = course
             sup.save()
 
-            return HttpResponse("thanks, you are now signed up")
+            return render(request, 'courses/course_signup_thanks.html', {'course': course})
 
     else:
         form = CourseSignupForm()
