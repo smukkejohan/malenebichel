@@ -4,7 +4,6 @@ from django.db import models
 from treebeard.mp_tree import MP_Node
 from django.utils.translation import ugettext_lazy as _
 
-
 class Page(MP_Node):
     title = models.CharField('titel',
         max_length=255
@@ -18,12 +17,13 @@ class Page(MP_Node):
         help_text='Sidens indhold.'
     )
 
-    node_order_by = ['title']
+    priority = models.IntegerField(default=0, help_text="Højere prioritet ligger først i menuer og lister.")
+    
+    node_order_by = ['priority']
 
     class Meta:
         verbose_name = 'side'
         verbose_name_plural = 'sider'
-        
 
     def __unicode__(self):
         return u'%s' % self.title

@@ -26,8 +26,8 @@
 
 <div id="container">
 
-    <header>
-        <hgroup id="site-title">
+    <header id="siteheader">
+        <hgroup>
             <h1><a href="{% url index %}">Malene Bichel</a></h1>
             <h2>Sanger og proceskonsulent</h2>
         </hgroup>
@@ -54,13 +54,14 @@
 
     </aside>
 
-    <footer>
+    <footer id="sitefooter">
         <!--<p>Hosted on a linode, powere by django and python developed by johan.cc</p>-->
 
     malenebi@gmail.com | 6114 4795
 
     </footer>
 
+{% if not user.is_staff %}
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -74,6 +75,7 @@
   })();
 
 </script>
+{% endif %}
 
 
 </div>

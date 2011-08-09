@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load markup %}
+
+
+{% block title %}Åbne workshops, kurser og events{% endblock %}
+
+{% block body-class %}courselist{% endblock %}
+
+{% block content %}
+
+<section id="currently">
+    <h1 class="section-title">Tilmelding til workshops, kurser og events</h1>
+    {% for course in course_list %}
+
+            <article id="{{ course.slug }}" class="{% cycle 'odd' 'even' %}">
+                <div class="inner">
+                <a href="{{ course.get_absolute_url }}">
+                    <h1>{{ course.title }}</h1>
+                </a>
+
+                    <p class="meta">
+                        <em>{% if course.custom_time %}
+                            {{ course.custom_time }} |
+                        {% else %}
+                            {{ course.start_date }} -
+                            {% ifequal course.end_date.date course.start_date.date %}
+                                {{ course.end_date.time }}{% else %}{{ course.end_date }}{% endifequal %} |
+                        {% endif %}
+
+                        {% if course.location %}{{ course.location }} | {% endif %}
+                        {% if course.price > 0 %}{{ course.price }},00 DKK{% else %}gratis{% endif %}
+                        </em>
+                    </p>
+
+                    {{ course.description|markdown }}
+
+                    <a href="{{ course.get_sign_up_url }}">Tilmelding</a>
+
+                </div>
+            </article>
+
+    {% endfor %}
+
+    <!--<a href="">Se tidligere</a>-->
+</section>
+
+{% endblock %}
+
+

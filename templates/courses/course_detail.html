@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load markup %}
+
+{% block title %}{{ course.title }}{% endblock %}
+
+{% block description %}{{ course.description|striptags }}{% endblock %}
+
+{% block content %}
+
+    <article id="{{ course.slug }}">
+
+        <header>
+            <h1>{{ course.title }}</h1>
+        </header>
+
+        <p class="meta">
+            <em>{% if course.custom_time %}
+                <time>{{ course.custom_time }}</time> |
+            {% else %}
+                <time>{{ course.start_date }}</time> -
+                {% ifequal course.end_date.date course.start_date.date %}
+                    <time>{{ course.end_date.time }}</time>{% else %}<time>{{ course.end_date }}</time>{% endifequal %} |
+            {% endif %}
+
+            {% if course.location %}{{ course.location }} | {% endif %}
+            {% if course.price > 0 %}{{ course.price }},00 DKK{% else %}gratis{% endif %}
+            </em>
+
+        </p>
+
+        <section class="body">
+            {{ course.body|markdown }}
+        </section>
+
+        <footer>{% if course.signup_open %}<a href="{{ course.get_sign_up_url }}">Tilmelding</a>{% endif %}</footer>
+
+
+
+    </article>
+
+{% endblock %}

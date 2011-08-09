@@ -55,34 +55,34 @@ section, header, footer, aside, article, hgroup {
   display: block; }
 
 /* line 1, ../src/partials/_header.sass */
-header {
+header#siteheader {
   padding-top: 3em;
   border-bottom-style: solid;
   border-bottom-width: 0.143em;
   padding-bottom: 1.357em;
   background: transparent url("../images/malene-banner.jpg") right no-repeat; }
   /* line 6, ../src/partials/_header.sass */
-  header hgroup#site-title {
+  header#siteheader hgroup {
     font-family: cantarell; }
     /* line 8, ../src/partials/_header.sass */
-    header hgroup#site-title h1 {
+    header#siteheader hgroup h1 {
       margin: 0; }
       /* line 10, ../src/partials/_header.sass */
-      header hgroup#site-title h1 a {
+      header#siteheader hgroup h1 a {
         color: black; }
         /* line 12, ../src/partials/_header.sass */
-        header hgroup#site-title h1 a:hover {
+        header#siteheader hgroup h1 a:hover {
           color: #666666; }
     /* line 14, ../src/partials/_header.sass */
-    header hgroup#site-title h2 {
+    header#siteheader hgroup h2 {
       margin: 0;
       color: #666666; }
     /* line 17, ../src/partials/_header.sass */
-    header hgroup#site-title a {
+    header#siteheader hgroup a {
       text-decoration: none; }
 
 /* line 1, ../src/partials/_footer.sass */
-footer {
+footer#sitefooter {
   border-top-style: solid;
   border-top-width: 0.143em;
   padding-top: 1.357em; }

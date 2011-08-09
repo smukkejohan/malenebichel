@@ -19,7 +19,9 @@
 
             <article id="{{ course.slug }}" class="{% cycle 'odd' 'even' %}">
                 <div class="inner">
+                <a href="{{ course.get_absolute_url }}">
                     <h1>{{ course.title }}</h1>
+                </a>
 
                     <p class="meta">
                         <em>{% if course.custom_time %}
@@ -37,7 +39,7 @@
 
                     {{ course.description|markdown }}
 
-                    {# if has page read more #}
+
                 </div>
             </article>
 

@@ -13,7 +13,8 @@ urlpatterns = patterns('',
 
     url(r'^$', 'views.index', name='index'),
 
-    url(r'^', include('courses.urls')),
+    url(r'^c/', include('courses.urls')),
+    
     url(r'^', include('pages.urls')),
 )
 

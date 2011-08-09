@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Tilmelding{% endblock %}
+
+{% block content %}
+
+    <section id="coursesignupform">
+
+        <header>
+            <hgroup>
+                <h2>Tilmelding til</h2>
+                <h1>{{ course.title }}</h1>
+            </hgroup>
+        </header>
+
+        {% if course.signup_link %}
+            <p>Tilmelding til dette kursus foregår via Docas. <a href="{{ course.signup_link }}" target="_blank">Gå til tilmelding.</a></p>
+        {% else %}
+
+        <form action="" method="post">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <input type="submit" value="Send tilmelding" />
+        </form>
+
+        {% endif %}
+
+    </section>
+
+    <!-- old form <iframe src="https://spreadsheets2.google.com/spreadsheet/embeddedform?formkey=dFhLcG8wXzBrbFRyYkpEVzl5WDFJNUE6MA" width="630" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+-->
+
+{% endblock %}
