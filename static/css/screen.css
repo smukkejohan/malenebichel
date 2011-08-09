@@ -629,3 +629,11 @@ header, footer {
   /* line 147, ../../../../.gem/ruby/1.8/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
   * html #sidebar {
     overflow-x: hidden; }
+
+/* line 38, ../src/screen.sass */
+article img {
+  max-width: 100%; }
+/* line 41, ../src/screen.sass */
+article figure {
+  float: right;
+  padding: 24px; }
