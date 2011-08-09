@@ -17,7 +17,7 @@ class Page(MP_Node):
         help_text='Sidens indhold.'
     )
 
-    priority = models.IntegerField(default=0, help_text="Lavere tal ligger før i menuer og lister.")
+    priority = models.PositiveIntegerField(default=0, help_text="Lavere tal ligger før i menuer og lister.")
     
     node_order_by = ['priority']
 
