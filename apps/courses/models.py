@@ -34,7 +34,8 @@ class Course(models.Model):
         max_length=255
     )
     slug = models.SlugField(max_length=55,
-        help_text="Bruges til kursets egen side."
+        help_text="Bruges til kursets egen side.",
+        unique=True
     )
     start_date = models.DateTimeField('start',
         help_text="""Hvornår starter kurset?
