@@ -96,7 +96,7 @@ class Course(models.Model):
     signup_objects = SignupManager()
 
     def __unicode__(self):
-        return u'%s' % self.title
+        return self.title
 
 
     @models.permalink
@@ -105,7 +105,7 @@ class Course(models.Model):
             {'slug': str(self.slug)})
 
     def get_sign_up_url(self):
-        return reverse('course_signup') + "?course={}".format(self.pk)
+        return u"%s?course=%d" % (reverse('course_signup'), self.pk)
 
     class Meta:
         verbose_name = 'kursus'
@@ -125,4 +125,4 @@ class Signup(models.Model):
     note = models.TextField('Note', blank=True)
 
     def __unicode__(self):
-        return u"{name} tilmeldt til {course}".format(name=self.first_name, course=self.course.title)
+        return u"%s tilmeldt til %s" % (self.first_name, self.course.title)
