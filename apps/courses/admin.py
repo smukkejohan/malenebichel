@@ -9,7 +9,7 @@ class CourseAdmin(admin.ModelAdmin):
 
     fieldsets = (
         (None, {
-            'fields': (('title', 'slug'), 'description', 'body', 'location', 'price', 'status')
+            'fields': (('title', 'slug'), 'description', 'body', 'location', 'price', 'status', 'display_frontpage')
         }),
         ('Tid og dato', {
            'fields': ('custom_time', 'start_date', 'end_date'),

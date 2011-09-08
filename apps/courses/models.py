@@ -29,6 +29,10 @@ class Course(models.Model):
         (ARCHIVE_STATUS, 'Arkiveret'),
     )
 
+    display_frontpage = models.BooleanField(
+        'Vis på forsiden',
+        default=True)
+
     title = models.CharField(
         'navn',
         max_length=255

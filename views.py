@@ -8,16 +8,19 @@ import twitter
 
 
 def index(request):
-    course_list = Course.future_objects.all()
+    course_list = Course.future_objects.filter(display_frontpage=True)
     praise_list = Praise.objects.all()
 
 
     tweets = cache.get( 'tweets' )
     if not tweets:
-        tweets = twitter.Api().GetUserTimeline( settings.TWITTER_USER )[:4]
-        for tweet in tweets:
-            tweet.date = datetime.strptime( tweet.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
+        try:
+            tweets = twitter.Api().GetUserTimeline( settings.TWITTER_USER )[:4]
+            for tweet in tweets:
+                tweet.date = datetime.strptime( tweet.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
 
-        cache.set( 'tweets', tweets, settings.TWITTER_TIMEOUT )
+            cache.set( 'tweets', tweets, settings.TWITTER_TIMEOUT )
+        except:
+            pass
 
     return render(request, 'index.html', {'course_list': course_list, 'tweets': tweets, 'praise_list': praise_list })
