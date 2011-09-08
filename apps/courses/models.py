@@ -116,7 +116,7 @@ class Course(models.Model):
 
 class Signup(models.Model):
     course = models.ForeignKey(Course)
-    user = models.ForeignKey(User, blank=True)
+    user = models.ForeignKey(User, null=True, blank=True)
 
     email = models.EmailField(max_length=150)
     phone = models.CharField('Telefon', blank=True, max_length=16)
