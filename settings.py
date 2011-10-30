@@ -15,6 +15,8 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
+DEFAULT_FROM_EMAIL = "noreply@malenebichel.dk"
+
 DEVELOPMENT_MODE = (platform.node() != PRODUCTION_HOSTNAME)
 if DEVELOPMENT_MODE:
     DEBUG = True
