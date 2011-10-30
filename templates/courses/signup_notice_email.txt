@@ -1,0 +1,16 @@
+{% autoescape off %}Kære Malene,
+
+{{ sup.first_name }} {{ sup.last_name }} har tilmeldt sig til {{ sup.course.title }}.
+{% if sup.note %}
+{{ sup.first_name }} har sendt følgende besked med tilmeldingen:
+
+    {{ sup.note }}
+{% endif %}
+
+Du kan kontakte {{ sup.first_name }} på:
+Telefon: {{ sup.phone }}
+Email: {{ sup.email }}
+
+Kærlig hilsen din hjemmeside
+
+{% endautoescape %}

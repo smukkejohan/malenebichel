@@ -20,6 +20,7 @@ if DEVELOPMENT_MODE:
     DEBUG = True
     MEDIA_URL = '/media/'
     STATIC_URL = '/static/'
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 else:
     DEBUG = False
     MEDIA_URL = 'http://static.malenebichel.dk/uploads/'
