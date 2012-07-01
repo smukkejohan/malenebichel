@@ -20,6 +20,12 @@ class SignupManager(FutureManager):
         return super(SignupManager, self).get_query_set().filter(signup_open=True)
 
 class Course(models.Model):
+    """
+    A Course has a start and end date and information about the course
+
+    """
+
+
     DRAFT_STATUS = 0
     PUBLIC_STATUS = 1
     ARCHIVE_STATUS = 2
@@ -119,6 +125,11 @@ class Course(models.Model):
         ordering = ['-start_date']
 
 class Signup(models.Model):
+    """
+    Users can sign up to courses providing raw information or a foreignkey to a user model
+
+    """
+
     course = models.ForeignKey(Course)
     user = models.ForeignKey(User, null=True, blank=True)
 

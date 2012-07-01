@@ -4,7 +4,7 @@ import sys
 import platform
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'malenebichel.urls'
 
 sys.path.append(BASE_PATH + '/apps')
 

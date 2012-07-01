@@ -5,6 +5,12 @@ from treebeard.mp_tree import MP_Node
 from django.utils.translation import ugettext_lazy as _
 
 class Page(MP_Node):
+    """
+    Pages are Treebeard MP_nodes and can be ordered in a tree hierarchy.
+    A Priority can be set to define the ordering in lists.
+
+    """
+
     title = models.CharField('titel',
         max_length=255
     )
