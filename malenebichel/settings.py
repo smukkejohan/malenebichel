@@ -32,9 +32,9 @@ else:
 TEMPLATE_DEBUG = DEBUG
 
 # Static files
-MEDIA_ROOT = BASE_PATH + '/static/uploads'
+MEDIA_ROOT = BASE_PATH + '/../static/uploads'
 STATICFILES_DIRS = (
-    BASE_PATH + '/static',
+    BASE_PATH + '/../static',
 )
 
 TIME_ZONE = 'Europe/Copenhagen'
