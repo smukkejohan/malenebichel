@@ -13,4 +13,4 @@ def deploy():
             run('pip install -r requirements.txt')
             run('python manage.py migrate')
             run('python manage.py cleanup')
-            run('touch malene/wsgi.py') # this triggers a gracefull reload
+            run('touch malenebichel/wsgi.py') # this triggers a gracefull reload
