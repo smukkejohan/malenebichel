@@ -7,5 +7,6 @@ simplejson
 psycopg2
 PIL
 
+sorl.thumbnail
 ipython
 fabric
