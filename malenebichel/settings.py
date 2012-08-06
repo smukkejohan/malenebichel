@@ -76,6 +76,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'honeypot.middleware.HoneypotMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
 )
@@ -93,6 +94,7 @@ INSTALLED_APPS = (
     'south',
     'treebeard',
     'sorl.thumbnail',
+    'honeypot',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,6 +125,8 @@ LOGGING = {
     }
 }
 
+
+HONEYPOT_FIELD_NAME = "email_field"
 
 TWITTER_USER = "malenebichel"
 TWITTER_TIMEOUT = 3600
