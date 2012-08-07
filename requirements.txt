@@ -6,6 +6,7 @@ python-twitter
 simplejson
 psycopg2
 PIL
+django-honeypot
 
 sorl-thumbnail
 ipython
