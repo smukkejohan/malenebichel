@@ -43,6 +43,7 @@
         <nav id="main-navigation">
             <ul>
                 <li class="{% ifequal request.path '/' %}active{% endifequal %}"><a href="{% url index %}">Forside</a></li>
+                <li><a href="http://malenebichel.blogspot.dk/">Blog</a></li>
                 <li class="{% ifequal request.path '/signup/' %}active{% endifequal %}"><a href="{% url course_signup %}">Tilmelding</a></li>
                 <li class="{% ifequal request.path '/recommendations/' %}active{% endifequal %}"><a href="{% url praises %}">Anbefalinger</a></li>
             </ul>
