@@ -43,7 +43,7 @@
         <nav id="main-navigation">
             <ul>
                 <li class="{% ifequal request.path '/' %}active{% endifequal %}"><a href="{% url index %}">Forside</a></li>
-                <li><a href="http://malenebichel.blogspot.dk/">Blog</a></li>
+                <li><a href="http://malbichel.blogspot.dk/">Blog</a></li>
                 <li class="{% ifequal request.path '/signup/' %}active{% endifequal %}"><a href="{% url course_signup %}">Tilmelding</a></li>
                 <li class="{% ifequal request.path '/recommendations/' %}active{% endifequal %}"><a href="{% url praises %}">Anbefalinger</a></li>
             </ul>
@@ -52,13 +52,14 @@
 
         {% block sidebar %}
         {% endblock %}
+        </br>
+        <p>Kontakt: email <em>malbichel@gmail.com<em> eller telefon <em>52231910</em></p>
 
     </aside>
 
     <footer id="sitefooter">
         <!--<p>Hosted on a linode, powered by django and python developed by johan.cc</p>-->
-
-    malbichel@gmail.com | 52231910
+        <p>Kontakt: email <em>malbichel@gmail.com<em> eller telefon <em>52231910</em></p>
 
     </footer>
 

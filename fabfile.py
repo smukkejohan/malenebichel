@@ -6,7 +6,7 @@ env.directory = '/home/malene/srv/malenebichel'
 env.activate = 'source /home/malene/.virtualenvs/malenebichel/bin/activate'
 
 def deploy():
-    local('git push')
+    local('git push origin master')
     with cd(env.directory):
         with prefix(env.activate):
             run('git pull')
