@@ -43,7 +43,7 @@ def signup(request):
                 render_to_string('courses/signup_notice_email.txt',
                         {'sup': sup, }, RequestContext(request)),
                 settings.DEFAULT_FROM_EMAIL,
-                ['malenebi@gmail.com'])
+                ['malbichel@gmail.com'])
 
             # confirmations are manual for now maybe change this.
             #confirmation_email_template = loader.get_template('courses/signup_confirmation_email.txt')
