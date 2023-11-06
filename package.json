@@ -1,0 +1,18 @@
+{
+    "name": "johan-cc",
+    "author": "Johan Bichel Lindegaard <public@johan.cc>",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"cd packages/web && pnpm dev\" \"cd packages/studio && pnpm start\"",
+        "test": "concurrently \"cd packages/web && pnpm test\" \"cd packages/studio && pnpm test\"",
+        "build": "concurrently \"cd packages/web && pnpm build\" \"cd packages/studio && pnpm build\""
+    },
+    "devDependencies": {
+        "concurrently": "8.2.2",
+        "typescript": "^5.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smukkejohan/malenebichel.git"
+    }
+}
