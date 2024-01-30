@@ -226,10 +226,7 @@ html {
   
   /* line 1, ../src/partials/_praises.sass */
   .praise {
-    display: inline;
-    float: left;
     margin-right: 0;
-    width: 630px;
     border-bottom: 1px dashed black; }
     /* line 147, ../../../../.gem/ruby/1.8/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
     * html .praise {
