@@ -11,7 +11,7 @@ onMount (() => {
 
 </script>
 
-<section id="intro" class="bg-gray-800 text-white text-lg p-10 rounded-sm mt-2">
+<section id="intro" class="bg-gray-800 text-white text-lg p-10 rounded-sm mt-2 not-prose">
   <h1>Mindre omsvøb,<br/>mere nærvær og kreativitet,<br/>dybere læring.</h1>
   </section>
 
