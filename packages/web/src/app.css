@@ -72,7 +72,7 @@ html {
     border-bottom-style: solid;
     border-bottom-width: 0.143em;
     padding-bottom: 1.357em;
-    background: transparent url("/images/malene-banner.jpg") right no-repeat; }
+ }
     /* line 6, ../src/partials/_header.sass */
     header#siteheader hgroup {
       font-family: cantarell; }

@@ -134,3 +134,12 @@
 		})();
 	</script>
 </div>
+
+
+<style lang="postcss">
+
+#siteheader {
+    background: transparent url("/images/malene-banner.jpg") right no-repeat;
+}
+
+</style>
