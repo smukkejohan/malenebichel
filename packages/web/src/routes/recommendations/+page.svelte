@@ -1,0 +1,310 @@
+    
+    <h1>Anbefalinger</h1>
+    
+        <div class="praise" id="p2">
+
+                
+                
+
+            <blockquote><p>Jeg vil gerne sige dig mange tak for hjælpen til processen i morgensangsudvalget.<br />
+Der er blevet løst op for mange ting, der gør at vi taler godt sammen, har fundet ud af at vi er yderst enige om mange ting og faktisk er mere i samme båd end vi troede.<br />
+Det betyder meget for alles arbejdsglæde. Det havde vi ikke klaret uden dig. TAK </p></blockquote>
+            <p class="person">- Lis Zacho, Skolen ved Søerne, Frederiksberg</p>
+        </div>
+    
+        <div class="praise" id="p10">
+
+                
+                
+
+            <blockquote><p>Vi har været fantastisk glade for vores seancer med dig og håber inderligt de kan fortsætte i en eller anden form. 
+Hver gang vi har været sammen med dig er vi blevet løftet ud af den daglige trædemølle og op på et højere og mere spændende plan. Tusind tak for alle de spændende, inspirerende og udviklende samtaler.</p></blockquote>
+            <p class="person">- Pernille Schlosser og Susanne Petersen</p>
+        </div>
+    
+        <div class="praise" id="p12">
+
+                
+                
+
+            <blockquote><p>Tusind tak for en dejlig workshop sidste weekend. Det var fedt at springe ud fra - hvad der føltes som - 10 meter vippen, og have dig med hele vejen. Nu er der så også kommet vand i bassinet og jeg tør lære at svømme i nyt smukt farvand :-)</p></blockquote>
+            <p class="person">- Julie Drehn, ID Life Coach</p>
+        </div>
+    
+        <div class="praise" id="p14">
+
+                
+                
+
+            <blockquote><p>Krop, sjæl og intellekt:
+Hos Malene bliver jeg igen og igen præsenteret for helt nye måder at tænke på og forstå verden på. Det er befriende og ekstremt forfriskende og tit også ret provokerende, fordi det stiller spørgsmål ved  min indgroede selvforståelse. </p>
+<p>Det er fantastisk at opleve, at der er en sammenhæng mellem stemmearbejdet , sangen, glæden, nydelsen og al humoren på den ene side og arbejdet med mere personlige og følsomme problematikker på den anden. Fantastisk, fordi man således kan arbejde med personlig udvikling på en livsglad og nydelsesfuld måde. Og altid med udgangspunkt i lige præcis dér, hvor man befinder sig. Og med problematikker, som man kan delagtiggøre Malene i eller lade være. Det er en gavebod. Hver gang. Det er bare at vælge. </p></blockquote>
+            <p class="person">- Inge Danielsen, Ph.d.stud. </p>
+        </div>
+    
+        <div class="praise" id="p6">
+
+                
+                    <figure><img alt=""src="/uploads/6a830ca0efb468db35d481145d362945.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Malene :-) Du er en fabelagtig underviser. Jeg sprutter af livsenergi efter en fantastisk sangtime!!!! </p>
+<hr />
+<p>Det var en stor oplevelse at være på dit hold atter engang. Synes selv,
+at jeg har lært at blive mere fri i min sang i år.</p></blockquote>
+            <p class="person">- Bjarne List Nissen, musiklærer og musiker</p>
+        </div>
+    
+        <div class="praise" id="p4">
+
+                
+                    <figure><img alt=""src="/uploads/17fa27d6f64a9210294a0a714e3ec374.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Udover at Malene har givet mig nogle gode afspændings- og koncentrationsøvelser, har hun med sin humor, menneskelige indsigt og rolige men direkte facon,rykket ved min forestilling om mig selv som sanger og performer . Det har været både givende, sundt og meget inspirerende! </p></blockquote>
+            <p class="person">- Jan Hilmar, sanger og musiklærer www.janhilmar.dk</p>
+        </div>
+    
+        <div class="praise" id="p1">
+
+                
+                    <figure><img alt=""src="/uploads/83b8c912fdbbd2959c04902b88fb8186.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Det er utroligt gang på gang at opleve, hvordan både øvede og uøvede sangere på 15 minutter bliver markant bedre på Malenes workshops.<br />
+Hvis øjnene er sjælens spejl, må stemmen være sjælens forstærker, og sang er i forhold til andre instrumenter i højere grad præget af et psykologisk element.<br />
+Malene er rigtig god til på en ukrukket og professionel måde at skabe rum for at man tør overvinde blufærdigheden, og hun finder hurtigt frem til de værktøjer den enkelte har brug for - for at blive en bedre sanger – uanset om det er psykologi eller sangpædagogik der er brug for. – <br />
+Hedder det holistisk sangpædagogik? - Malene´s kurser kan varmt anbefales</p></blockquote>
+            <p class="person">- Martin Utzon, musiklærer</p>
+        </div>
+    
+        <div class="praise" id="p8">
+
+                
+                    <figure><img alt=""src="/uploads/841806519c187137c25f7a8b8de27d5a.jpg"  width="225"/></figure>
+                
+
+            <blockquote><p>Kære Malene!
+Vil lige sende dig en lille hilsen. Jeg var til eksamen i går i min opgave og fik et 12 tal - det første jeg tænkte på var dig og din hjælp 
+- tak for inspiration, engagement, spændende tænkning, din troværdighed og ikke mindst din coaching af mig i gennemslagskraft.</p></blockquote>
+            <p class="person">- Susanne Petersen, specialteamkoordinator, Skolen ved Søerne, Frederiksberg</p>
+        </div>
+    
+        <div class="praise" id="p13">
+
+                
+                    <figure><img alt=""src="/uploads/9a3dd1a53f13a84dfd5438efcb2a474e.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Thank you for the advice for my voice. It was really helpful!</p></blockquote>
+            <p class="person">- Govind Radhakrishnan, Yoga and meditation teacher </p>
+        </div>
+    
+        <div class="praise" id="p3">
+
+                
+                    <figure><img alt=""src="/uploads/3775f04acdd834f58a31f801f429c086.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Jeg har deltaget i flere af Malenes kursusforløb. Den gennemgående røde tråd i disse er et intenst nærvær - uanset overskrift. 
+Ingen afstand mellem dèn, man er, og dét, man gør .... det er en ret stærk oplevelse!
+Her fokuseres på mindre elementer, som får den opmærksomhed og omsorg, de fortjener, så længe kurset varer. Så er det op til een selv, hvor længe input skal vare herefter. Tænk lige over dèt.</p></blockquote>
+            <p class="person">- Karin Terlø, lærer</p>
+        </div>
+    
+        <div class="praise" id="p9">
+
+                
+                    <figure><img alt=""src="/uploads/01c7951a9c5c3eef1dc5a59a08769fbb.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Jeg har af flere omgange været i supervision hos Malene. Jeg kommer derfra uden en egentlig løsning, men med fornemmelsen af enkelthed og overskuelighed til selv at kunne komme videre.
+Malene har evnen til at vende tingene på hovedet, så emnet/problematikken bliver anskueliggjort fra flere vinkler. 
+Jeg er hver gang gået løftet derfra med en lethed og et humør og mod til at kaste mig ud i verden. </p></blockquote>
+            <p class="person">- Pernille Schlosser, AKT-vejleder</p>
+        </div>
+    
+        <div class="praise" id="p16">
+
+                
+                    <figure><img alt=""src="/uploads/965c1216a649f406f0c370a46fb0fbe5.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Jeg kan rigtig godt lide at synge! Har fundet ud af, at det er når jeg synger, at jeg lettest er mig selv og ikke længere er så begrænset og hæmmet på min sanselighed og mit nærvær. Men hvordan forbinder jeg mig med dette frihedsunivers, der ligger gemt i sangen og i min stemme?</p>
+<p>Malene dukkede op som noget, der lignede et tilfælde, og som viste sig at være en gave. Hun hjælper mig til at give slip på spændinger og kontrol, og jeg oplever derved, at noget helt nyt og ukendt vokser ud af min stemme. Noget stort og stærkt, som er ligeglad med alt. Noget som bare er. Og som nyder at være. </p>
+<p>Jeg har fået øje på, hvad der begrænser mig i min sang, og hvad der forhindrer mig i at slappe af og finde mit mod til at være naturlig. Mod til bare at være. Uden at tænke, uden at dømme. Det handler nemlig ikke om at synge pænt. Det handler om at synge det frem, der er. </p>
+<p>Malene har lært mig noget helt essentielt: Kun ved at slappe helt af i min krop, i mit sind og i mit hoved, får jeg det bedste frem i min stemme og mobiliseret de potentialer, der måtte være i mig mere generelt. Og nu hjælper hun mig med at lære min krop at slappe af. </p></blockquote>
+            <p class="person">- Inge Danielsen, Ph.d.stud. </p>
+        </div>
+    
+        <div class="praise" id="p5">
+
+                
+                    <figure><img alt=""src="/uploads/4b687d73908b438f018871d2d680cf4e.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Jeg synes er der er et helt vildt godt flow i hvad vi lavede; du guidede altid videre på de rigtige tidspunkter og uden dikkedarer og uden at det føltes kontrolleret. Det tror jeg var med til at gøre at vi virkelig hurtigt kom frem til noget der lød rart i ørene, og det var skønt. En anden ting som virkelig tænder mig er, at det vi laver når ud over det, at synge. Det du sætter i spil i forhold til at improvisere sang sætter tanker i gang om hvordan jeg gør min dagligdag; hvor meget "improviserer" jeg og hvor meget kører jeg i et fast og trygt mønster af handlinger og holdninger. Det føles som omdu selv lever det, at det at synge og det at leve ikke er to adskilte størrelser, og det smitter af. Det kommer også til udtryk i at du følger det der dukker op i processen, for eksempel forslag fra os. 
+Det er sjældent jeg har oplevet den kombination af sang, liv og bevidsthed. Det er meget, meget inspirerende. </p></blockquote>
+            <p class="person">- Jes Plesner, Coach </p>
+        </div>
+    
+        <div class="praise" id="p15">
+
+                
+                    <figure><img alt=""src="/uploads/8a93f08bc1b40adacaf04afa0f5e5498.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Stemmemeditationen:
+Følelsen af rigtigt at mærke lyden i sin egen krop og lyden, vi skaber sammen, er en følelse af forbindelse. Forbindelse til en stærk, smuk energi inden i mig, inden i de andre, inden i alt levende. Det er fantastisk at mærke den energi, der vokser ud i rummet, som en sammensmeltning af den enkeltes nærvær og hengivelse til lyden i det øjeblik, vi er. </p></blockquote>
+            <p class="person">- Inge Danielsen, Ph.d.stud. </p>
+        </div>
+    
+        <div class="praise" id="p7">
+
+                
+                    <figure><img alt=""src="/uploads/1e0d70b4316861b52165c9fa8e4f293a.jpg" width="300"/></figure>
+                
+
+            <blockquote><p>Gennem flere år har jeg ofte haft lejlighed til at sparre med Malene om faglige, personlige og filosofiske emner. Det spændende ved disse udvekslinger har både været deres dybde, anvendelighed og innovationskraft, som ofte har tilføjet nye perspektiver langt ud over forventning. Malenes iderigdom, logiske stringens og evne til at se tingene fra nye vinkler er ret enestående, og så har hun hjertet på rette sted - tilsammen en blanding som i hvert fald jeg værdsætter meget højt. 
+.</p></blockquote>
+            <p class="person">- Ebbe Høyrup, Direktør for Levende Musik i Skolen</p>
+        </div>
+    
+        <div class="praise" id="p18">
+
+                
+                    <figure><img alt=""src="/uploads/11be5bf0026a3296b4202e4911bccad8.jpg" width="300"/></figure>
+                
+
+            <blockquote><p>jeg er helt vildt rørt over at have mærket min stemme som en forlængelse af mig selv - nok for første gang for alvor. I´ll be back for more, det er næsten for godt til at være sandt. tusind tak for en skøn session´stemme og mindfulness´ :-)</p></blockquote>
+            <p class="person">- Christa Gunilla Wolf</p>
+        </div>
+    
+        <div class="praise" id="p17">
+
+                
+                    <figure><img alt="" src="/uploads/0ef8bc61e44f4b54a3b82ec71c1ce795.jpg" width="300"/></figure>
+                
+
+            <blockquote><p>Kjære Malene
+Jeg er så takknemlig universet sendte meg i din retning.
+Din evne til å formidle din kunnskap er meget inspirende.
+Jeg har fått så mange aha-opplevelser i forhold til
+min stemme, mitt uttrykk og meg selv. Det du formidler
+føles som det mest naturlige og logiske, samtidig
+som det er nytt for meg.
+Dine sangtimer har åpnet opp en ny verden,
+fra å være teknikk-fokusert til å gi slipp og la min egen
+stemme komme frem. Befriende.</p>
+<p>Det magiske med det hele, er at det handler om 
+stemmens og kroppens naturlige uttrykk.</p>
+<p>Takk for at du er den du er.
+Jeg vil ha flere timer!!</p>
+<p>Kærlig hilsen Hedda</p></blockquote>
+            <p class="person">- Hedda Vie, sanger og musiklærer</p>
+        </div>
+    
+        <div class="praise" id="p19">
+
+                
+                    <figure><img alt="" src="/uploads/a364a68b2215efe3798961ddff98dccb.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Tak for en rigtig fin workshop idag! Jeg kunne rigtig godt lide din vinkel på sangundervisningen, og fik helt klart noget med hjem til eftertanke omkring det autentiske udtryk. Det mere legende og mindre kontrollerende var en "guf" indsigt for mig! :-)"</p></blockquote>
+            <p class="person">- Cassandra Chrom, Grafisk designer www.cassandrachrom.dk</p>
+        </div>
+    
+        <div class="praise" id="p22">
+
+                
+                
+
+            <blockquote><p>Jeg har fået en dejlig gave. Nynner taknemmeligt i efternydningens lykke. Malene Bichel og Sisse Skovbakke var i kurset "sang som stressdæmper" værtinder ved en forunderlig lydfest og bød på en mangfoldighed af nye muligheder. Med nysgerrighed, tillid og humor kastede man stemmen ud i, hvad der udefra kunne ligne absurd teater eller et mærkværdigt vækkelsesmøde. Det lidt svære blev let med dem ved hånden. Vi blev budt op til sanselig dans med åndning = inspiration = struber der åbnedes = følelsers energi der flød ud og ind. For en stund i det rum rørtes vi sammen og skabte landskaber af lyd, der var så meget større end summen af de enkelte bidrag. TAK til alle der var med. Dybfølt tak til de to fantastiske værtinder :)</p></blockquote>
+            <p class="person">- Rikke Granum Andersen, miljøingeniør</p>
+        </div>
+    
+        <div class="praise" id="p23">
+
+                
+                
+
+            <blockquote><p>Retur fra en dejlig uge på Livsstilshøjskolen Gudum hvor ugens overskrift var Sang som Stressdæmper. Takket være de super dygtigere undervisere, Sisse Skovbakke og Malene Bichel, blev det en uge med nærvær, udfordringer, playfulness, afspænding, sanselighed, og masser af stof til eftertanke. De smukkeste stemmemeditationer opstod i Gudum Kirke og i Bovbjerg fyrtårn helt uden intention om hvordan det skulle lyde. Lød som engle der fløj over vores hoveder. Mødte en masse dejlige mennesker at lege med og at udveksle tanker og oplevelser med. Jeg glæder mig til at arbejde videre med min stemme herhjemme og evt. sammen med nogle af mine nye venner i andre sammenhænge.</p></blockquote>
+            <p class="person">- Dorte Zobbe</p>
+        </div>
+    
+        <div class="praise" id="p26">
+
+                
+                    <figure><img alt="" src="/uploads/ad38c100614ce51a224f6dc378863348.jpg"  width="199"/></figure>
+                
+
+            <blockquote><p>Hej Malene - tak for pædagogisk formiddag i går. Det fik orden på nogle ting vi lærere og udøvende måske godt ved, men nu fik hjælp til at sætte i klar og givende konsekvens. Den helt store åbner for mig blev da vi til slut alle sang "Yesterday" sammen. Dine klare påvisning af de 2 faldgruber - at man enten synger "med" på efterslæb, eller fører an med præstations motivation, - og så lod os prøve én gang til med den tredie mulighed - den indre oplevelse mobiliseret - var den helt skønne oplevelse. Her kunne jeg pludselig gensanse min gamle fryd ved musikken og fik det meget bedre, fysisk som psykisk! Tak!</p></blockquote>
+            <p class="person">- Birgitte Alsted, komponist</p>
+        </div>
+    
+        <div class="praise" id="p27">
+
+                
+                
+
+            <blockquote><p>Vi var heldige at få Malene Bichel til at komme og deltage i Amager Ungeseminar 2018. Hendes rolle var først at observere og gå i dialog med de mange praktikere, der var til stede på dagen og til sidst at være paneldeltager i en debat om de udfordringer, praktikerne står med. Det gav nogle debatter, hvor Malene bidrog ved at være god til at inddrage den viden og de observationer, hun havde gjort sig i løbet af dagen.. Det er vigtigt, fordi debatten handlede om unge og fællesskaber, og der er mange sandheder, som ellers risikerede blot at blive remset op. Men med Malenes bidrag fik vi hele tiden skudt bolden tilbage til os selv på den måde, at Malene ofte insisterede på, at vi som praktikere altid træffer et valg, og selve den måde, vi anskuer tingenes tilstand og den måde, vi taler om dem på, har en konsekvens for, hvordan vi kan handle. Så det var nyttigt, og jeg vil til hver en tid anbefale Malene, hvis man har brug for en reflekteret og behagelig konsulent og paneldeltager.</p></blockquote>
+            <p class="person">- Peter Martinussen Kulturkonsulent Børnekulturhus Ama´r</p>
+        </div>
+    
+        <div class="praise" id="p28">
+
+                
+                
+
+            <blockquote><p>Elsker Malenes evne til at formidle sine kloge betragtninger på en personlig, tankevækkende facon - tak fordi du provokerer os til at løfte blikket </p></blockquote>
+            <p class="person">- Nina Ulf Jørgensen, DAMUSA</p>
+        </div>
+    
+        <div class="praise" id="p20">
+
+                
+                    <figure><img alt="" src="/uploads/a7c0075337d292f67629894489ee57a7.jpg"  width="278"/></figure>
+                
+
+            <blockquote><p>Jeg sang meget som barn, men holdt op med at synge, da jeg var cirka 20. Nu er jeg lige så stille og forsigtigt begyndt at bruge stemmen igen sammen med Malene og resten af Klangsaft. Det føles som et mirakel hver eneste torsdag aften. Og jeg holder aldrig op igen.</p>
+<p>Når jeg går på arbejde som konsulent i mediebranchen, bliver jeg mødt med krav om skarphed, effektivitet og sikkerhed. Jeg har derfor fået kontakt med helt nye sider af mig selv, efter at jeg er begyndt at deltage i Klangsaft - Malenes vokale eksperimentarium. Vi har nu været i gang i et halvt års tid, og jeg mærker, hvordan paraderne - hos både mig selv og de andre deltagere - gradvist sænkes, og stemmerne får lov at leve. Det er en gribende og udviklende proces. Og så klinger det ret skønt ind imellem.</p></blockquote>
+            <p class="person">- Julie Bondo Gravesen, redaktør</p>
+        </div>
+    
+        <div class="praise" id="p21">
+
+                
+                    <figure><img alt="" src="/uploads/bd617051ffc2c01a2503fe3b28b757ab.jpg" width="300"/></figure>
+                
+
+            <blockquote><p>Malene is the best teacher, if you are looking for someone, you want to learn
+from. 
+Her ways of thinking extend your sensibility for life and free your mind.</p></blockquote>
+            <p class="person">- Johanna Baarlink, Viola player</p>
+        </div>
+    
+        <div class="praise" id="p24">
+
+                
+                    <figure><img alt="" src="/uploads/698ae11479b541b337eafe81de5197d4.jpg" width="188"/></figure>
+                
+
+            <blockquote><p>Kære Malene 
+Vil bare lige huske at sige tak for en rigtig spændende koncert og dage. 
+Det har været virkelig fedt at opleve din tilgang til improvisationen. 
+Specielt dit fokus på brug af rummet er inspirerende for mig - og godt at blive mindet om. Og din vedholdenhed og insisteren på nærvær og lytten til hinanden og hvordan du arbejder med at opløse sangernes ego og præstationsbevidsthed. Så skønt!</p></blockquote>
+            <p class="person">- Rikke Bjerring, sangpædagog</p>
+        </div>
+    
+        <div class="praise" id="p25">
+
+                
+                    <figure><img alt="" src="/uploads/97aa19fd1fac2242781cf1a22c387367.jpg"  width="300"/></figure>
+                
+
+            <blockquote><p>Tak Malene for din evne til at komme ind til kernen af, hvad kreativitet, udtryk og indtryk er for noget. Det er din styrke at du kan få os til at OPLEVE det på egen krop.
+endnu engang tak for din tilstedeværelse og fokus på essens</p></blockquote>
+            <p class="person">- Helle Solvang, Journalist DR</p>
+        </div>
+    
+
